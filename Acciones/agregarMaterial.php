@@ -1,5 +1,5 @@
 <?php
-
+/* AGREGAR MATERIAL */
 if (isset($_POST['MaterialID'], $_POST['Denominacion'], $_POST['proveedor'])) {
     // Obtener los datos del formulario
     $MaterialID = $_POST['MaterialID'];
